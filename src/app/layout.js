@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import "./globals.css";
+import Hero from "@/components/hero";
 
 
 export const metadata = {
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Hero />
         <Footer />
       </body>
     </html>
