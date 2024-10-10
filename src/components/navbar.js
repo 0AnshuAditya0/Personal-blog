@@ -11,7 +11,7 @@ export default function Navbar() {
   const pathname = usePathname();
   // Use usePathname to handle active links:
   return (
-    <nav className="bg-gray-400 text-black p-4 pt-5 flex justify-between ">
+    <nav className="bg-gray-400 text-black p-4 pt-5 flex justify-between font-ubuntu font-semibold">
       <Image src="/images/edgrun.jpg"
         width={50}
         height={50}
