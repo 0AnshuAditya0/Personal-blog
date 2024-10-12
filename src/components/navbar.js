@@ -22,7 +22,7 @@ export default function Navbar() {
       <ul className="flex space-x-8 justify-between items-center text-xl">
         <li><Link 
         className="hover:bg-black hover:rounded-md hover:text-cyan-300 hover:p-2 hover:m-2" 
-        href="/"
+        href="/home"
         >Home</Link></li>
 
         <li><Link 
@@ -30,7 +30,7 @@ export default function Navbar() {
         href="/about"
         >About</Link></li>
 
-        <li><Link className="hover:bg-black hover:rounded-md hover:text-cyan-300 hover:p-2 hover:m-2" href="/projects">Projects</Link></li>
+        <li><Link className="hover:bg-black hover:rounded-md hover:text-cyan-300 hover:p-2 hover:m-2" href="/project">Projects</Link></li>
         {/* Use usePathname to handle active links: */}
         <li><Link className={`p-2 rounded ${pathname === '/contact' ? 'text-red-500 bg-yellow-300' : ''} hover:bg-black hover:rounded-md hover:text-cyan-300 hover:p-2 hover:m-2 `} href="/contact">Contact</Link></li>
       </ul>
