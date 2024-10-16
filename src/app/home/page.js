@@ -5,13 +5,15 @@ const Home = () => {
   return (
     <>
       <div className="w-full h-screen bg-indigo-950 flex justify-start items-centre">
-        <div className="m-auto rounded-xl pl-14  overflow-hidden">
-          <Image
-            src="/images/hyunjin.jpg"
-            alt=""
-            height={2000}
-            width={2000}
-          />
+        <div className="m-auto p-14">
+          <div className=" rounded-xl overflow-hidden">
+            <Image
+              src="/images/hyunjin.jpg"
+              alt=""
+              height={2000}
+              width={2000}
+            />
+          </div>
         </div>
         <p className="m-auto p-40 text-lime-200">
           The future of AI-powered "eyes" holds the promise of enhanced vision
