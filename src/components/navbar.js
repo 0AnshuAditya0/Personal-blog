@@ -17,7 +17,7 @@ export default function Navbar() {
       <Image src="/images/edgrun.jpg"
         width={50}
         height={50}
-        className="p-auto border-solid rounded"
+        className="rounded"
       />
 
 
@@ -38,7 +38,7 @@ export default function Navbar() {
       </ul>
 
 
-      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Login</button>
+      <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Login</button>
 
 
     </nav>
