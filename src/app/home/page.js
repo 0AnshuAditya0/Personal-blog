@@ -76,7 +76,7 @@ const Home = () => {
               alt="Sample Image 4"
               className="w-full h-48 object-cover rounded-md"
             />
-            <h2 className="text-xl font-semibold mt-4">Box 4</h2>
+            <h2 className="text-xl font-semibold mt-4">Or img 4 i should say</h2>
             <p className="text-gray-600">Sample content goes here.</p>
           </div>
         </div>
