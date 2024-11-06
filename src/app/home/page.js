@@ -29,7 +29,7 @@ const Home = () => {
       </div>
       <br></br>
       <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-8">
-        
+        //add heading with use of a nake the size bigger with css
         <h1 className="text-4xl font-bold mb-10 text-center">
           Welcome to the Grid Layout
         </h1>
