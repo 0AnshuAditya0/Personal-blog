@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
+const va = ["1","2"];
+
+
 const Home = () => {
   return (
     <>
@@ -15,6 +18,7 @@ const Home = () => {
             />
           </div>
         </div>
+        
         <p className="m-auto p-40 text-lime-200">
           The future of AI-powered "eyes" holds the promise of enhanced vision
           systems that can process and interpret visual data far beyond human
