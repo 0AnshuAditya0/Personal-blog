@@ -33,14 +33,14 @@ const Home = () => {
       </div>
       <br></br>
       <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-8">
-        {/* Heading */}
+        //add heading with use of a nake the size bigger with css
         <h1 className="text-4xl font-bold mb-10 text-center">
           Welcome to the Grid Layout
         </h1>
 
-        {/* Grid of 4 Boxes */}
+       
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
-          {/* Box 1 */}
+     
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
             <img
               src="/images/sample1.jpg"
@@ -51,7 +51,7 @@ const Home = () => {
             <p className="text-gray-600">Sample content goes here.</p>
           </div>
 
-          {/* Box 2 */}
+          
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
             <img
               src="/images/sample2.jpg"
@@ -62,7 +62,7 @@ const Home = () => {
             <p className="text-gray-600">Sample content goes here.</p>
           </div>
 
-          {/* Box 3 */}
+         
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
             <img
               src="/images/sample3.jpg"
@@ -73,14 +73,14 @@ const Home = () => {
             <p className="text-gray-600">Sample content goes here.</p>
           </div>
 
-          {/* Box 4 */}
+          
           <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center">
             <img
               src="/images/sample4.jpg"
               alt="Sample Image 4"
               className="w-full h-48 object-cover rounded-md"
             />
-            <h2 className="text-xl font-semibold mt-4">Box 4</h2>
+            <h2 className="text-xl font-semibold mt-4">Or img 4 i should say</h2>
             <p className="text-gray-600">Sample content goes here.</p>
           </div>
         </div>
